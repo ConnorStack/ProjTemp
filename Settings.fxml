@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="settingsAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.SettingsController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="toMainBtn" mnemonicParsing="false" onAction="#switchToMain" text="Back" />
+      <Label fx:id="settingsLbl" layoutX="300.0" layoutY="25.0" prefHeight="15.0" prefWidth="66.0" text="Settings" />
+   </children>
+</AnchorPane>
